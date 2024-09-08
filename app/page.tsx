@@ -21,13 +21,13 @@ export default function Home() {
             Syntax Sangam
           </Highlight>
         </div>
-        <div className={"flex flex-row items-center justify-center text-3xl font-medium mt-5 w-1/4"}>
-          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all"}>
+        <div className={"flex flex-row items-center justify-center text-3xl font-medium mt-5 w-1/4 gap-x-5"}>
+          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all ease-in-out outline-none border-primary border rounded-xl p-1"}>
             <Link href={"/get-started"}>
               Get Started
             </Link>
           </button>
-          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all"}>
+          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all ease-in-out outline-none border-primary border rounded-xl p-1"}>
             <Link href={"/sign-up"}>
               Sign Up
             </Link>
