@@ -1,6 +1,7 @@
 import SparklesText from "@/components/magicui/sparkles-text";
 import { Highlight } from "@/components/ui/hero-highlight";
 import Particles from "@/components/magicui/particles";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,8 +21,20 @@ export default function Home() {
             Syntax Sangam
           </Highlight>
         </div>
+        <div className={"flex flex-row items-center justify-center text-3xl font-medium mt-5 w-1/4"}>
+          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all"}>
+            <Link href={"/get-started"}>
+              Get Started
+            </Link>
+          </button>
+          <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all"}>
+            <Link href={"/sign-up"}>
+              Sign Up
+            </Link>
+          </button>
+        </div>
       </div>
-      <Particles className={"fixed z-[-10] w-full h-full inset-0"} />
+      <Particles className={"fixed z-[-10] w-full h-full inset-0"}/>
     </>
   )
 }
