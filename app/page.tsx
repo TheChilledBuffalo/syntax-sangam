@@ -1,14 +1,11 @@
 import SparklesText from "@/components/magicui/sparkles-text";
 import { Highlight } from "@/components/ui/hero-highlight";
-import Particles from "@/components/magicui/particles";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full h-full flex flex-col items-center justify-center text-5xl gap-y-7 font-semibold
-    animate-in fade-in slide-in-from-top-3 duration-1000 text-balance bg-gradient-to-br from-black from-30% to-black/40
-    bg-clip-text pb-2 leading-none text-transparent dark:from-white dark:to-white/80 select-none">
+      <div className="w-full h-full flex flex-col items-center justify-center text-5xl gap-y-7 font-semibold text-balance bg-gradient-to-br from-black from-30% to-black/40 bg-clip-text pb-2 leading-none text-transparent dark:from-white dark:to-white/80 select-none">
         <div className={""}>
           Learn Coding
         </div>
@@ -23,7 +20,7 @@ export default function Home() {
         </div>
         <div className={"flex flex-row items-center justify-center text-3xl font-medium mt-5 w-1/4 gap-x-5"}>
           <button className={"hover:font-semibold hover:tracking-wide flex-1 transition-all ease-in-out outline-none border-primary border rounded-xl p-1"}>
-            <Link href={"/get-started"}>
+            <Link href={"/learn"}>
               Get Started
             </Link>
           </button>
@@ -34,7 +31,6 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <Particles className={"fixed z-[-10] w-full h-full inset-0"}/>
     </>
   )
 }

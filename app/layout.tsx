@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import Particles from "@/components/magicui/particles";
 
 const InterFont = Inter({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Particles className={"fixed z-[-10] w-full h-full inset-0"}/>
         </ThemeProvider>
       </body>
     </html>
