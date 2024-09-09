@@ -1,7 +1,7 @@
-export const pythonQuestions =  [
+export const Questions =  [
     //easy question
     {
-        question: "What is the correct way to define a function in Python",
+        question: "What is the correct way to define a function in Python?",
         option1: "def myFunction",
         option2: "function myFunction()",
         option3: "def myFunction()",
@@ -10,15 +10,12 @@ export const pythonQuestions =  [
     },
     // intermediate
     {
-        question: "What will the following Python code output?\nx=[1,2,3]\ny=x\ny.appemd(4)\nprint(x)",
+        question: "What will the following Python code output?\nx=[1,2,3]\ny=x\ny.append(4)\nprint(x)",
         option1: "[1,2,3]",
         option2: "[1,2,3,4]",
         option3: "[1,2]",
         option4: "Error",
         ans: 2,
-
-
-
     },
     //Advanced
     {
