@@ -1,4 +1,4 @@
-export const data =  [
+export const Questions =  [
     //easy question
     {
         question: "What is the correct way to print something the console Java",
