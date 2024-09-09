@@ -34,7 +34,7 @@ export default function Home() {
               "hover:font-semibold hover:tracking-wide flex-1 transition-all ease-in-out outline-none border-primary border rounded-xl p-1"
             }
           >
-            <Link href={"/learn"}>Get Started</Link>
+            <Link href={"/get-started"}>Get Started</Link>
           </button>
           <button
             className={

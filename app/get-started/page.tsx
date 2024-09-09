@@ -9,17 +9,17 @@ export default function GetStartedPage() {
         </div>
         <div className={"flex flex-row gap-x-10"}>
           <button className={"flex-1 ease-in-out outline-none border-primary border-2 rounded-xl py-3 px-20 text-3xl font-semibold"}>
-            <Link href={"/learn/python"}>
+            <Link href={"/get-started/python"}>
               Python
             </Link>
           </button>
           <button className={"flex-1 ease-in-out outline-none border-primary border-2 rounded-xl py-3 px-20 text-3xl font-semibold"}>
-            <Link href={"/learn/java"}>
+            <Link href={"/get-started/java"}>
               Java
             </Link>
           </button>
           <button className={"flex-1 ease-in-out outline-none border-primary border-2 rounded-xl py-3 px-20 text-3xl font-semibold"}>
-            <Link href={"/learn/cpp"}>
+            <Link href={"/get-started/cpp"}>
               C++
             </Link>
           </button>
