@@ -16,9 +16,6 @@ export const Questions =  [
         option3: "true",
         option4: "false",
         ans: 2,
-
-
-
     },
     //Advanced
     {
@@ -29,6 +26,4 @@ export const Questions =  [
         option4: "Error",
         ans: 1,
     }
-
-
 ]

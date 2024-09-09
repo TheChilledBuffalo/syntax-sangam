@@ -1,4 +1,4 @@
-export const data =  [
+export const Questions =  [
     //easy question
     {
         question: "What is the correct way to declare an integer variable in C++",
@@ -10,15 +10,12 @@ export const data =  [
     },
     // intermediate
     {
-        question: "What will be teh output of the following code\nint a = 5;\nint b = 10;\ncout<<a+b;",
+        question: "What will be the output of the following code\nint a = 5;\nint b = 10;\ncout<<a+b;",
         option1: "5",
         option2: "10",
         option3: "15",
         option4: "Error",
         ans: 3,
-
-
-
     },
     //Advanced
     {
@@ -29,6 +26,4 @@ export const data =  [
         option4: "Error",
         ans: 1,
     }
-
-
 ]
